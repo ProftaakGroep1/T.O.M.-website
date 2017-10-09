@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Home | T.O.M.</title>
-</head>
-<body>
-
-</body>
-</html>
+<?php
+$title = "Home";
+include "includes/header.php";
+?>
+	<!-- <body> -->
+	
+	<!-- </body> -->
+<?php include "includes/footer.html"; ?>
