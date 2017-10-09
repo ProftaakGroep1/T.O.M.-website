@@ -1,4 +1,73 @@
+html {
+	height: 100%;
+}
 body {
 	background-image: url("../images/achtergrond.jpg");
 	background-size: cover;
+	margin: 0;
+	display: -webkit-flex;
+	display: flex;
+	min-height: 100%;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+header {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto 0 auto;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.container > * {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+nav {
+	margin-left: auto;
+}
+
+nav ul {
+	display: -webkit-flex;
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-family: "trebuchet MS",sans-serif;
+}
+
+footer {
+	margin-top: auto;
+}
+
+.partners {
+	background: rgba(255, 255, 255, 0.8);
+	overflow: auto;
+}
+
+.partners > h1 {
+	text-align: center;
+	font-family: helvetica,sans-serif;
+	margin: 10px 0 0 0;
+}
+
+footer > p {
+	text-align: center;
+	margin: 0;
+	font-family: "Tahoma","Geneva",sans-serif;
+	font-size: 12px;
 }
