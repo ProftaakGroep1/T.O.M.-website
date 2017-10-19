@@ -57,12 +57,23 @@ footer {
 .partners {
 	background: rgba(255, 255, 255, 0.8);
 	overflow: auto;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: space-evenly;
+	justify-content: space-evenly;
 }
 
 .partners > h1 {
 	text-align: center;
 	font-family: helvetica,sans-serif;
 	margin: 10px 0 0 0;
+	width: 100%;
+}
+
+.partners > img {
+	margin-bottom: 10px;
 }
 
 footer > p {
