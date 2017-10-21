@@ -57,7 +57,39 @@ nav a {
 
 .title {
 	min-height: 250px;
-	background: url("../images/homeBanner.jpg") center;
+	background: url("../images/homeBanner.jpg"), center;
+}
+
+.bannerContainer {
+	max-width: 800px;
+	margin: 0 auto 0 auto;
+}
+
+.bannerContainer > h1 {
+	margin-left: 10px;
+	font-family: "Tahoma","Geneva",sans-serif;
+	font-size: 40px;
+	margin-bottom: 0;
+}
+
+.bannerContainer > h1 > span {
+	background-color: rgba(255, 255, 255, 0.67);
+	display: inline;
+	padding: 10px;
+}
+
+.bannerContainer > h2 {
+	margin-left: 10px;
+	font-family: "Tahoma","Geneva",sans-serif;
+	margin-top: 0;
+	font-size: 35px;
+	font-weight: normal;
+}
+
+.bannerContainer > h2 > span {
+	background-color: rgba(255, 255, 255, 0.67);
+	display: inline;
+	padding: 0 10px 10px 10px;
 }
 
 main {
