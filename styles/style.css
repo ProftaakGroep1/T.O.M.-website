@@ -100,6 +100,36 @@ main {
 	max-width: 800px;
 }
 
+.samenvatting > p {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: "trebuchet MS",sans-serif;
+	text-align: center;
+	font-size: 17px;
+	color: #db1616;
+}
+
+.tom > h1, p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.tom > h1 {
+	margin-bottom: 0;
+	font-family: "Tahoma","Geneva",sans-serif;
+}
+
+.tom > p {
+	margin-top: 0;
+	font-family: "trebuchet MS",sans-serif;
+}
+
+.tom > img {
+	float: right;
+	clear: both;
+	margin: 0 20px 20px 10px;
+}
+
 footer {
 	margin-top: auto;
 }
