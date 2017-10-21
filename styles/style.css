@@ -75,7 +75,7 @@ nav a {
 .bannerContainer > h1 > span {
 	background-color: rgba(255, 255, 255, 0.67);
 	display: inline;
-	padding: 10px;
+	padding: 0 10px 0 10px;
 }
 
 .bannerContainer > h2 {
@@ -89,7 +89,7 @@ nav a {
 .bannerContainer > h2 > span {
 	background-color: rgba(255, 255, 255, 0.67);
 	display: inline;
-	padding: 0 10px 10px 10px;
+	padding: 0 10px 0 10px;
 }
 
 main {
