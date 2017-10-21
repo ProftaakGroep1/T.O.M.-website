@@ -11,7 +11,7 @@
 			<nav>
 				<ul>
 					<li>
-						<a href="#">Home</a>
+						<a href="/tombv/">Home</a>
 					</li>
 					<li>
 						<a href="#">T.O.M.</a>

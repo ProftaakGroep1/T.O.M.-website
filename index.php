@@ -2,6 +2,12 @@
 $title = "Home";
 include "includes/header.php";
 ?>
-<!-- <body> -->
-<!-- </body> -->
+<!-- </header> -->
+<section class="title">
+	
+</section>
+<main>
+	
+</main>
+<!-- <footer> -->
 <?php include "includes/footer.html"; ?>
