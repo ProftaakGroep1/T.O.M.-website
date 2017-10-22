@@ -94,10 +94,14 @@ nav a {
 
 main {
 	background-color: white;
-	height: 100%;
 	margin: 0 auto 0 auto;
 	width: 100%;
 	max-width: 800px;
+}
+
+main > a {
+	text-decoration: none;
+	color: black;
 }
 
 .samenvatting > p {
@@ -109,19 +113,27 @@ main {
 	color: #db1616;
 }
 
-.tom > h1, p {
+.secties {
+	overflow: auto;
+}
+
+.secties > h1, p {
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
-.tom > h1 {
+.secties > h1 {
 	margin-bottom: 0;
 	font-family: "Tahoma","Geneva",sans-serif;
 }
 
-.tom > p {
+.secties > p {
 	margin-top: 0;
 	font-family: "trebuchet MS",sans-serif;
+}
+
+.tom {
+    background-color: #ecd5d5;
 }
 
 .tom > img {
