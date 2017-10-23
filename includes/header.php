@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo $title; ?> | T.O.M.</title>
+	<title><?php echo $title; ?> | T.O.M. BV</title>
 	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>

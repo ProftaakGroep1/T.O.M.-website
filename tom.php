@@ -30,7 +30,7 @@ include "includes/header.php";
 		</div>
 		<div>
 			<img src="images/staand.jpg" alt="Kinderen die rond een wereldbol staan">
-			<h2>Staand leren</h2>
+			<h2>Achter de schoolbanken vandaan</h2>
 			<p>
 				Leerlingen zijn staand met T.O.M. bezig bij de landkaart die op de grond ligt. Ze moeten zorgen dat hij op zijn bestemming aankomt.
 			</p>
@@ -49,14 +49,21 @@ include "includes/header.php";
 				Door opdrachten juist uit te voeren, scoort de leerling punten die bij wordt gehouden door het programma op de computer.
 			</p>
 		</div>
-		<h2>Ranglijst</h2>
-		<p>
-			De punten in het computerprogramma worden in een ranglijst gezet zodat de leerling kan kijken of hij/zij zijn vriendje/vriendinnetje verslagen heeft, maar ook zodat de docent weet hoe hij/zij scoort.
-		</p>
-		<h2>Landelijke ranglijst</h2>
-		<p>
-			De scores worden door ons verzameld en in een landelijke ranglijst gezet, die per categorie, zoals beste leerlingen en beste provincies, aangeeft wie het beste is. Die ranglijsten zijn op deze website te vinden.
-		</p>
+		<div>
+			<!-- TODO: Moet screenshot van C# programma worden -->
+			<img src="images/scorebord.png" alt="Screenshot van scorebord leerlingen op website">
+			<h2>Ranglijst</h2>
+			<p>
+				De punten in het computerprogramma worden in een ranglijst gezet zodat de leerling kan kijken of hij/zij zijn vriendje/vriendinnetje verslagen heeft, maar ook zodat de docent weet hoe hij/zij scoort.
+			</p>
+		</div>
+		<div>
+			<img src="images/landScore.png" alt="Screenshot van scorebord provincies op website" class="onderste">
+			<h2>Landelijke ranglijst</h2>
+			<p>
+				De scores worden door ons verzameld en in een landelijke ranglijst gezet, die per categorie, zoals beste leerlingen en beste provincies, aangeeft wie het beste is. Die ranglijsten zijn op deze website te vinden.
+			</p>
+		</div>
 	</section>
 	<section class="secties bestellen">
 		<h1>Geïnteresseerd?</h1>

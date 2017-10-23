@@ -239,6 +239,10 @@ main > a {
 	margin-bottom: 10px;
 }
 
+.onderste {
+	margin-bottom: 20px !important;
+}
+
 .functies > div > p {
 	margin-top: 0;
 	font-family: "trebuchet MS",sans-serif;
