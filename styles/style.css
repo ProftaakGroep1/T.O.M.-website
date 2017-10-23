@@ -4,6 +4,7 @@ html {
 body {
 	background-image: url("../images/achtergrond.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 	margin: 0;
 	display: -webkit-flex;
 	display: flex;
@@ -17,7 +18,7 @@ header {
 }
 
 .container {
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto 0 auto;
 	display: -webkit-flex;
 	display: flex;
@@ -55,13 +56,25 @@ nav a {
 	font-family: "trebuchet MS",sans-serif;
 }
 
+nav a:hover {
+	color: #e7e7e7;
+}
+
 .title {
 	min-height: 250px;
-	background: url("../images/homeBanner.jpg"), center;
+	background-position: center;
+}
+
+.homeBanner {
+	background-image: url("../images/homeBanner.jpg");
+}
+
+.tomBanner {
+	background-image: url("../images/tomBanner.jpg");
 }
 
 .bannerContainer {
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto 0 auto;
 }
 
@@ -93,15 +106,24 @@ nav a {
 }
 
 main {
-	background-color: white;
 	margin: 0 auto 0 auto;
 	width: 100%;
-	max-width: 800px;
+	max-width: 1000px;
 }
 
 main > a {
 	text-decoration: none;
 	color: black;
+}
+
+.note {
+	color: red;
+}
+
+.samenvatting {
+	background-color: white;
+	overflow: auto;
+	margin-bottom: 20px;
 }
 
 .samenvatting > p {
@@ -115,16 +137,22 @@ main > a {
 
 .secties {
 	overflow: auto;
+	background-color: white;
+	margin-bottom: 20px;
 }
 
-.secties > h1, p {
+.secties > h1, p, h2, h3 {
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
-.secties > h1 {
+.secties > h1, h2 {
 	margin-bottom: 0;
 	font-family: "Tahoma","Geneva",sans-serif;
+}
+
+.secties > h2 {
+	font-size: 20px;
 }
 
 .secties > p {
@@ -132,14 +160,116 @@ main > a {
 	font-family: "trebuchet MS",sans-serif;
 }
 
-.tom {
-    background-color: #ecd5d5;
+.secties > ul {
+	font-family: "trebuchet MS",sans-serif;
+	margin-top: 0;
 }
 
 .tom > img {
 	float: right;
 	clear: both;
 	margin: 0 20px 20px 10px;
+}
+
+.tabellen {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.tabellen {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.tabellen > div > h3 {
+	margin: 0;
+	font-family: "Tahoma","Geneva",sans-serif;
+}
+
+.tabellen > div > table, th, td {
+	border: 1px solid #898989;
+}
+
+.tabellen > div > table {
+	margin-bottom: 20px;
+	background-color: white;
+	border-collapse: collapse;
+}
+
+.tabellen > div > table > thead {
+	font-family: "Tahoma","Geneva",sans-serif;
+	background-color: #ecd5d5;
+}
+
+.tabellen > div > table > thead > tr > th {
+	text-align: start;
+}
+
+.tabellen > div > table > tbody {
+	font-family: "trebuchet MS",sans-serif;
+	background-color: whitesmoke;
+}
+
+.stijging {
+	color: green;
+}
+
+.laatst {
+	margin-top: 0;
+}
+
+.functies > div {
+	overflow: auto;
+}
+
+.functies > div > h2 {
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.functies > div > img {
+	float: left;
+	clear: both;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.functies > div > p {
+	margin-top: 0;
+	font-family: "trebuchet MS",sans-serif;
+}
+
+.noBottom {
+	margin-bottom: 0;
+}
+
+.bestel {
+	float: right;
+	clear: both;
+	margin-right: 20px;
+	background-color: #eaeaea;
+	padding: 10px;
+}
+
+.bestel > h1 {
+	margin: 0;
+	font-family: arial,sans-serif;
+}
+
+.bestel > a {
+	text-decoration: none;
+	color: black;
+	background-color: #ff9797;
+	font-weight: bold;
+	font-family: "Tahoma","Geneva",sans-serif;
+	padding: 10px;
+	display: block;
+	text-align: center;
 }
 
 footer {
@@ -150,7 +280,7 @@ footer {
 	background-color: #efefef;
 	overflow: auto;
 	margin: 0 auto 0 auto;
-	max-width: 800px;
+	max-width: 1000px;
 }
 
 .sub > form {

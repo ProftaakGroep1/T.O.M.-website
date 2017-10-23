@@ -14,7 +14,7 @@
 						<a href="/tombv/">Home</a>
 					</li>
 					<li>
-						<a href="#">T.O.M.</a>
+						<a href="tom.php">T.O.M.</a>
 					</li>
 					<li>
 						<a href="#">Scorebord</a>
