@@ -17,10 +17,10 @@
 						<a href="tom.php">T.O.M.</a>
 					</li>
 					<li>
-						<a href="#">Scorebord</a>
+						<a href="scores.php">Scorebord</a>
 					</li>
 					<li>
-						<a href="#">Contact</a>
+						<a href="contact.php">Contact</a>
 					</li>
 				</ul>
 			</nav>

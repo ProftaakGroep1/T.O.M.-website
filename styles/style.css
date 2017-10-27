@@ -73,6 +73,14 @@ nav a:hover {
 	background-image: url("../images/tomBanner.jpg");
 }
 
+.scoreBanner {
+	background-image: url("../images/scoreBanner.jpg");
+}
+
+.contactBanner {
+	background-image: url("../images/contactBanner.jpg");
+}
+
 .bannerContainer {
 	max-width: 1000px;
 	margin: 0 auto 0 auto;
@@ -135,6 +143,11 @@ main > a {
 	color: #db1616;
 }
 
+.eersteSectieGeenKoppen > p {
+	margin-top: 16px !important;
+	color: #ff5100;
+}
+
 .secties {
 	overflow: auto;
 	background-color: white;
@@ -163,6 +176,44 @@ main > a {
 .secties > ul {
 	font-family: "trebuchet MS",sans-serif;
 	margin-top: 0;
+}
+
+.secties > form {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+}
+
+.formE {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+
+.secties > form > p {
+	font-family: "trebuchet MS",sans-serif;
+	margin-bottom: 0;
+}
+
+.formE > p {
+	font-family: "trebuchet MS",sans-serif;
+	margin-bottom: 0;
+	margin-right: 0;
+}
+
+.secties > form > textarea {
+	margin: 0 20px 0 20px;
+	-webkit-align-self: stretch;
+	align-self: stretch;
+	height: 10em;
+}
+
+.secties > form > input {
+	margin: 20px auto;
 }
 
 .tom > img {

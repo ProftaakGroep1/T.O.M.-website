@@ -28,7 +28,7 @@ include "includes/header.php";
 			</p>
 		</section>
 	</a>
-	<a href="#">
+	<a href="scores.php">
 		<section class="scores secties">
 			<h1>Scores</h1>
 			<p>

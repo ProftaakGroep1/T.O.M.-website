@@ -82,8 +82,9 @@ include "includes/header.php";
 		</ul>
 		<h2>Werk je niet bij een basisschool?</h2>
 		<p>
-			Beveel het dan aan! Stuur via onderstaand formulier een mailtje met informatie over T.O.M. naar iemand van de basisschool en zet er ook bij waarom jij denkt dat de basisschool T.O.M. moet gaan gebruiken! 
+			Beveel het dan aan! Stuur <!-- via onderstaand formulier --> een mailtje met informatie over T.O.M. naar iemand van de basisschool en zet er ook bij waarom jij denkt dat de basisschool T.O.M. moet gaan gebruiken! 
 		</p>
+		<!-- TODO: formulier toevoegen -->
 	</section>
 </main>
 <!-- <footer> -->
