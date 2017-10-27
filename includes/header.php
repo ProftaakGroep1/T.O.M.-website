@@ -7,7 +7,9 @@
 <body>
 	<header>
 		<div class="container">
-			<img src="images/logo.png" alt="Logo T.O.M. BV">
+			<a href="/tombv/">
+				<img src="images/logo.png" alt="Logo T.O.M. BV">
+			</a>
 			<nav>
 				<ul>
 					<li>

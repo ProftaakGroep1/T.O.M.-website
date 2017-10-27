@@ -44,9 +44,11 @@ include "includes/header.php";
 					<h3>Provincies</h3>
 					<table>
 						<thead>
-							<th>#</th>
-							<th>Score</th>
-							<th>Provincie</th>
+							<tr>
+								<th>#</th>
+								<th>Score</th>
+								<th>Provincie</th>
+							</tr>
 						</thead>
 						<tbody>
 							<tr>
@@ -71,9 +73,11 @@ include "includes/header.php";
 					<h3>Plaatsen</h3>
 					<table>
 						<thead>
-							<th>#</th>
-							<th>Score</th>
-							<th>Plaats</th>
+							<tr>
+								<th>#</th>
+								<th>Score</th>
+								<th>Plaats</th>
+							</tr>
 						</thead>
 						<tbody>
 							<tr>
@@ -98,10 +102,12 @@ include "includes/header.php";
 					<h3>Scholen</h3>
 					<table>
 						<thead>
-							<th>#</th>
-							<th>Score</th>
-							<th>School</th>
-							<th>Plaats</th>
+							<tr>
+								<th>#</th>
+								<th>Score</th>
+								<th>School</th>
+								<th>Plaats</th>
+							</tr>
 						</thead>
 						<tbody>
 							<tr>
@@ -129,11 +135,13 @@ include "includes/header.php";
 					<h3>Klassen</h3>
 					<table>
 						<thead>
-							<th>#</th>
-							<th>Score</th>
-							<th>Klas</th>
-							<th>School</th>
-							<th>Plaats</th>
+							<tr>
+								<th>#</th>
+								<th>Score</th>
+								<th>Klas</th>
+								<th>School</th>
+								<th>Plaats</th>
+							</tr>
 						</thead>
 						<tbody>
 							<tr>
@@ -164,9 +172,11 @@ include "includes/header.php";
 					<h3>Leerlingen</h3>
 					<table>
 						<thead>
-							<th>#</th>
-							<th>Score</th>
-							<th>Naam</th>
+							<tr>
+								<th>#</th>
+								<th>Score</th>
+								<th>Naam</th>
+							</tr>
 						</thead>
 						<tbody>
 							<tr>
@@ -194,10 +204,12 @@ include "includes/header.php";
 					<h3>Provincies</h3>
 					<table>
 						<thead>
-							<th>#</th>
-							<th>Stijging</th>
-							<th>Score</th>
-							<th>Provincie</th>
+							<tr>
+								<th>#</th>
+								<th>Stijging</th>
+								<th>Score</th>
+								<th>Provincie</th>
+							</tr>
 						</thead>
 						<tbody>
 							<tr>
@@ -225,9 +237,11 @@ include "includes/header.php";
 					<h3>Plaatsen</h3>
 					<table>
 						<thead>
-							<th>#</th>
-							<th>Stijging</th>
-							<th>Plaats</th>
+							<tr>
+								<th>#</th>
+								<th>Stijging</th>
+								<th>Plaats</th>
+							</tr>
 						</thead>
 						<tbody>
 							<tr>
@@ -252,10 +266,12 @@ include "includes/header.php";
 					<h3>Scholen</h3>
 					<table>
 						<thead>
-							<th>#</th>
-							<th>Stijging</th>
-							<th>School</th>
-							<th>Plaats</th>
+							<tr>
+								<th>#</th>
+								<th>Stijging</th>
+								<th>School</th>
+								<th>Plaats</th>
+							</tr>
 						</thead>
 						<tbody>
 							<tr>
@@ -283,11 +299,13 @@ include "includes/header.php";
 					<h3>Klassen</h3>
 					<table>
 						<thead>
-							<th>#</th>
-							<th>Stijging</th>
-							<th>Klas</th>
-							<th>School</th>
-							<th>Plaats</th>
+							<tr>
+								<th>#</th>
+								<th>Stijging</th>
+								<th>Klas</th>
+								<th>School</th>
+								<th>Plaats</th>
+							</tr>
 						</thead>
 						<tbody>
 							<tr>
@@ -318,9 +336,11 @@ include "includes/header.php";
 					<h3>Leerlingen</h3>
 					<table>
 						<thead>
-							<th>#</th>
-							<th>Stijging</th>
-							<th>Naam</th>
+							<tr>
+								<th>#</th>
+								<th>Stijging</th>
+								<th>Naam</th>
+							</tr>
 						</thead>
 						<tbody>
 							<tr>
