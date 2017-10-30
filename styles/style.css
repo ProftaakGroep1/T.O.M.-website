@@ -31,19 +31,19 @@ header {
 	margin-bottom: 10px;
 }
 
-.container > img {
+.container > a {
 	margin-left: 20px;
 }
 
 nav {
 	margin-left: auto;
-	margin-right: 20px;
 }
 
 nav ul {
 	display: -webkit-flex;
 	display: flex;
 	list-style: none;
+	margin-right: 20px;
 }
 
 nav li {
@@ -367,8 +367,8 @@ footer {
 	display: flex;
 	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
-	-webkit-justify-content: space-evenly;
-	justify-content: space-evenly;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
 }
 
 .partners > h1 {
