@@ -25,7 +25,7 @@ include "includes/header.php";
 			<img src="images/topo.jpg" alt="Nederlandse topografie kaart">
 			<h2>Leren van topografie</h2>
 			<p>
-				T.O.M. geeft topografie gerelateerde opdrachten als "Rij naar Groningen".
+				T.O.M. geeft topografie gerelateerde opdrachten als "Rijd naar Groningen".
 			</p>
 		</div>
 		<div>
