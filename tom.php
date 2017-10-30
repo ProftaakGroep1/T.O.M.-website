@@ -25,7 +25,7 @@ include "includes/header.php";
 			<img src="images/topo.jpg" alt="Nederlandse topografie kaart">
 			<h2>Leren van topografie</h2>
 			<p>
-				T.O.M. geeft topografie gerelateerde opdrachten als "Rij naar Groningen" of "Rij naar de provincie waar Maastricht ligt".
+				T.O.M. geeft topografie gerelateerde opdrachten als "Rij naar Groningen".
 			</p>
 		</div>
 		<div>
